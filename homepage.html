@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Orbitz</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="css/grid.css" rel="stylesheet" type="text/css" />
+  <link href="css/main.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+  <h1 class="hidden">Welcome to Orbitz</h1>
+
+  <div id="sticky-nav-con">
+    <header class="poppins-regular grid-con" id="main-header">
+      <div class="col-start-1 col-end-3 m-col-start-1 m-col-end-4 l-col-start-2">
+        <div class="logo">
+          <img src="images/orbitz_logo.svg" alt="Orbitz Logo" />
+        </div>
+      </div>
+      <div class="col-start-4 col-end-5 m-col-start-6 m-col-end-13 l-col-start-7 l-col-end-12">
+        <nav id="main-navigation">
+          <h2 class="hidden">Main Navigation</h2>
+          <button id="button"></button>
+          <div id="burger-con" class="poppins-regular">
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Menu</a></li>
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">Join</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+  </div>
+
+  <section class="grid-con hero">
+    <div class="col-span-full">
+      <img src="images/illustration.svg" alt="Orbitz Welcome Illustration" class="welcome-illustration" />
+      <h1>Crafting Journeys, One Trip at a Time – Welcome to Orbitz</h1>
+    </div>
+  </section>
+
+  <section class="grid-con rating-card">
+    <div class="col-span-full m-col-start-4 m-col-end-10 rating-box">
+      <img src="images/rate_section.png" alt="Good taste juice rating card" class="rating-image" />
+    </div>
+  </section>
+
+  <section class="grid-con benefits">
+    <div class="col-span-full">
+      <h2>The Benefits of Juices from our Shop</h2>
+    </div>
+    <div class="col-span-full m-col-span-3 l-col-span-3">
+      <img src="images/digestive_ai.svg" alt="Digestive Health Icon" />
+      <h3>Digestive Health</h3>
+      <p>Lorem ipsum dolor sit amet consectetur. In tincidunt suspendisse accumsan vivamus sit tellus.</p>
+    </div>
+    <div class="col-span-full m-col-span-3 l-col-span-3">
+      <img src="images/benefits_2.svg" alt="Immune Support Icon" />
+      <h3>Immune Support</h3>
+      <p>Lorem ipsum dolor sit amet consectetur. In tincidunt suspendisse accumsan vivamus sit tellus.</p>
+    </div>
+    <div class="col-span-full m-col-span-3 l-col-span-3">
+      <img src="images/benefits_3.svg" alt="Energy Boost Icon" />
+      <h3>Energy Boost</h3>
+      <p>Lorem ipsum dolor sit amet consectetur. In tincidunt suspendisse accumsan vivamus sit tellus.</p>
+    </div>
+    <div class="col-span-full m-col-span-3 l-col-span-3">
+      <img src="images/benefits_1.svg" alt="Antioxidant Power Icon" />
+      <h3>Antioxidant Power</h3>
+      <p>Lorem ipsum dolor sit amet consectetur. In tincidunt suspendisse accumsan vivamus sit tellus.</p>
+    </div>
+  </section>
+
+  <section class="grid-con">
+    <div class="col-span-full">
+      <h2>Our Product</h2>
+    </div>
+    <div class="grid-con products">
+      <div class="col-span-full m-col-span-3 product-card">
+        <h3>Berry Blast</h3>
+        <p>850 ml • 5g Sugar • Non-alcohol • High Vitamin C</p>
+        <span>$7</span>
+      </div>
+      <div class="col-span-full m-col-span-3 product-card">
+        <h3>Root Beer</h3>
+        <p>850 ml • 5g Sugar • Non-alcohol • High Vitamin C</p>
+        <span>$7</span>
+      </div>
+      <div class="col-span-full m-col-span-3 product-card">
+        <h3>Cream Soda</h3>
+        <p>850 ml • 5g Sugar • Non-alcohol • High Vitamin C</p>
+        <span>$7</span>
+      </div>
+      <div class="col-span-full m-col-span-3 product-card">
+        <h3>Limited Edition</h3>
+        <p>850 ml • 5g Sugar • Non-alcohol • High Vitamin C</p>
+        <span>$7</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="grid-con contact-form-section">
+    <div class="col-span-full">
+      <h2 class="contact-title">Get In Touch</h2>
+      <p class="contact-description">Got a question for us? We’d love to hear from you! Shoot us a message, and the Orbitz team will get back to you as soon as possible.</p>
+    </div>
+    <div class="col-span-full m-col-start-3 m-col-end-11 contact-form">
+      <form action="#" method="post" enctype="text/plain">
+        <input type="text" name="first-name" placeholder="First Name*" required />
+        <input type="text" name="last-name" placeholder="Last Name*" required />
+        <input type="email" name="email" placeholder="Email*" required />
+        <input type="text" name="phone" placeholder="Contact*" required />
+        <textarea name="message" placeholder="Your Message (optional)"></textarea>
+        <input type="submit" value="Send message" />
+      </form>
+    </div>
+  </section>
+
+  <footer class="grid-con">
+    <div class="col-span-full m-col-start-2 m-col-end-12">
+      <p>Need more information? <br>
+      +21 8727 6271 • orbitzdrink@domain.com <br>
+      Nory 6789, Burn Swiss • orbitz.com</p>
+      <p>© 2023 Orbitz. All rights reserved.</p>
+    </div>
+    <div class="col-span-full social-icons">
+      <img src="images/social_media.svg" alt="Social Media Links" class="social-default" />
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
