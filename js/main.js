@@ -1,5 +1,7 @@
 (() => {
-    
+
+console.log("JS is live");
+
 // Variables and Data Arrays //    
 const promos = [
     {
@@ -57,9 +59,14 @@ function showPromo(promoObj) {
 // Event Listeners //
 
 productCards.forEach(card => {
-    const cardId = card.CDATA_SECTION_NODE.promo;
+    const cardId = card.dataset.promo;
+
+    console.log("Clicked on product box");
 
     card.addEventListener("click", () => {
+
+        console.log("Card clicked:", cardId);
+        
         const promoObj = promos.find(promo => promo.id === cardId);
             if (promoObj) showPromo(promoObj);
     });
