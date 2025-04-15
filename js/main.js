@@ -55,6 +55,7 @@ function showPromo(promoObj) {
 }
 
 // Event Listeners //
+
 productCards.forEach(card => {
     const cardId = card.CDATA_SECTION_NODE.promo;
 
