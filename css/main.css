@@ -633,6 +633,13 @@ body {
     margin: 0 auto;
   }
   
+  .video video {
+    width: 100%;
+    height: auto;
+    display: block;
+    max-width: 100%;
+  }
+
   .welcome-illustration {
     max-width: 200px;
     margin: 20px auto 0;
