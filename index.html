@@ -15,7 +15,14 @@
     <!-- Header -->
     <header>
       <img src="images/orbitz_logo.svg" alt="Orbitz Logo"/>
-      <nav>
+      
+      <div class="burger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+      <nav class="nav-menu">
         <ul>
           <li><a href="index.html">Home</a></li>
           <li><a href="about.html">About Us</a></li>
@@ -77,11 +84,11 @@
       <h2>Contact</h2>
       <h3>Get In Touch</h3>
       <form class="contact-form">
-        <input type="text" placeholder="First Name">
-        <input type="text" placeholder="Last Name">
-        <input type="email" placeholder="Email">
-        <input type="tel" placeholder="Contact">
-        <textarea placeholder="Your Message (optional)"></textarea>
+        <input type="text" placeholder="First Name" id="firstname">
+        <input type="text" placeholder="Last Name" id="lastname">
+        <input type="email" placeholder="Email" id="email">
+        <input type="tel" placeholder="Contact" id="telephone">
+        <textarea placeholder="Your Message (optional)" id="message"></textarea>
         <button type="submit">Send message</button>
       </form>
       <div class="contact-details">

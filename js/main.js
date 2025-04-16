@@ -34,6 +34,8 @@ const promos = [
     }
 ];
 const productCards = document.querySelectorAll(".product-card");
+const burger = document.querySelector(".burger");
+const navMenu = document.querySelector(".nav-menu");
 
 // Functions //
 
@@ -47,7 +49,7 @@ function showPromo(promoObj) {
     promoBox.innerHTML = 
         `
         <div class="promo-content">
-            <h3>${promoObj.name}</h3>
+            <h4>${promoObj.name}</h4>
             <img src="${promoObj.image}">
             <p>${promoObj.description}</p>
             <p>${promoObj.flavourprofile}</p>
@@ -77,6 +79,10 @@ productCards.forEach(card => {
             if (promoObj) showPromo(promoObj);
     });
 });
+
+burger.addEventListener("click", () => {
+    navMenu.classList.toggle("open");
+  });
 
 // Escape Key Exit //
 window.addEventListener("keydown", (event) => {
