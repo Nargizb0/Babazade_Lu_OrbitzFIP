@@ -77,4 +77,14 @@ productCards.forEach(card => {
             if (promoObj) showPromo(promoObj);
     });
 });
+
+// Escape Key Exit //
+window.addEventListener("keydown", (event) => {
+    if (event.key === "Escape") {
+      const openBox = document.querySelector(".promo-box");
+      if (openBox) {
+        openBox.remove();
+      }
+    }
+  });
 })();
